@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: vgfiit-ambulance-ufe-content
+spec:
+  microFrontend: vgfiit-ambulance-ufe
+  element: vgfiit-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?vgfiit-ambulance-wl(/.*)?$"
