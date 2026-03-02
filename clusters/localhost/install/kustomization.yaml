@@ -9,4 +9,7 @@ labels:
 
 resources:
 - ../../../apps/vgfiit-ambulance-ufe
+
+components:
+- ../../../components/version-developers
   
