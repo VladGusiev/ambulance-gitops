@@ -4,7 +4,10 @@ metadata:
   name: vgfiit-ambulance-ufe-content
 spec:
   microFrontend: vgfiit-ambulance-ufe
-  element: vgfiit-ambulance-wl-list
+  element: vgfiit-ambulance-wl-app
+    attributes:
+    - name: base-path
+      value: /vgfiit-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
