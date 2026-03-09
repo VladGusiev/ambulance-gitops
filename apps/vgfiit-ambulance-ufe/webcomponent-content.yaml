@@ -5,9 +5,9 @@ metadata:
 spec:
   microFrontend: vgfiit-ambulance-ufe
   element: vgfiit-ambulance-wl-app
-    attributes:
+  attributes:
     - name: base-path
-      value: /vgfiit-ambulance-wl/
+      value: ./vgfiit-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
