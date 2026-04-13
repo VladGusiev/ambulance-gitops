@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/vgfiit-ambulance-ufe
+- ../../../apps/<pfx>-ambulance-webapi
 
 
 components:
