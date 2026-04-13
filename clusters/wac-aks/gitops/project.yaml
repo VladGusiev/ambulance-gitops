@@ -7,6 +7,6 @@ spec:
   description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Vladyslav Gusiev" # Zadajte mená autorov
   azureLink: "https://wac-ambulance-vg.azurewebsites.net"
-  frontendRepoUrl: "https://github.com/<your-account>/<frontend-repository>"
-  backendRepoUrl: "https://github.com/<your-account>/<backend-repository>"
-  gitopsRepoUrl: "https://github.com/<your-account>/<gitops-repository>"
+  frontendRepoUrl: "https://github.com/VladGusiev/ambulance-ufe"
+  backendRepoUrl: "https://github.com/VladGusiev/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/VladGusiev/ambulance-gitops"
