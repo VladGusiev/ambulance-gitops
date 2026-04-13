@@ -7,8 +7,10 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: vgfiit-ambulance-wl
+    wac-fiit.github.io/project: vgfiit-ambulance-wl
   includeSelectors: true
   includeTemplates: true
+  
 
 resources:
 - ../../../apps/vgfiit-ambulance-ufe
